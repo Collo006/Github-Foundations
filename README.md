@@ -1,0 +1,5 @@
+# Github-Foundations
+## Git Terminology
+- Hash: A number produced by a hash function that represents the contents of a file or another object as a fixed number of digits. Git traditionally uses SHA-1 hashes that are 160 bits long, though modern versions of Git also support SHA-256 (256 bits). One advantage to using hashes is that Git can tell whether a file has changed by hashing its contents and comparing the result to the previous hash. If the file time-and-date stamp is changed, but the file hash isn’t changed, Git knows the file contents aren’t changed.
+
+- Object: A Git repo contains four types of objects, each uniquely identified by a hash. A blob object contains an ordinary file. A tree object represents a directory; it contains names, hashes, and permissions. A commit object represents a specific version of the working tree. An annotated tag object stores metadata, such as a name, message, and optional signature, and usually points to a commit, though it can point to other Git objects as well. Git also supports lightweight tags, which are references rather than objects.
