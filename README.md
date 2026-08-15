@@ -11,3 +11,8 @@ Gists are a feature of GitHub that allows users to share code snippets, notes, o
 Every repository on GitHub.com comes equipped with a section for hosting documentation, called a wiki. You can use your repository's wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles. While a README file quickly tells what your project can do, you can use a wiki to provide additional documentation.
 
 It’s worth a reminder that if your repository is private, only people who have at least read access to your repository will have access to your wiki.
+
+## What are GitHub Pages?
+Now let’s take a look at GitHub Pages. You can use GitHub Pages to publicize and host a website about yourself, your organization, or your project directly from a repository on GitHub.com.
+
+GitHub Pages is a static site-hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub. Optionally, you can run the files through a build process and publish a website. You can specify a source branch and folder (e.g., /docs) for your Pages site, and GitHub will host the content publicl
